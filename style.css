@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030331;  
+}
+
+.card {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #1F4E8C, #194078, white);
+  border: solid #fff 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon {
+  width: 25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+  height: 80px;
+}
+
+.iconito {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 3px;
+}
+
+.Chip {
+  display: flex;
+  width: 70px;
+  height: 50px;
+  border-radius: 10px;
+  justify-content: flex-start;
+  padding: 3px;
+}
+
+.text {
+  margin-left: 20px;
+  color: white;
+  font-size: 30px;
+}
+
+.entidad {
+  display: flex;
+  width: 70px;
+  height: 60px;
+  justify-content: flex-end;
+  margin-left: 250px;
+}
+
+.Middle {
+  width: 25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: 80px;
+  margin-left: 28px;
+}
+
+h3 {
+  width: 25rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+h1 {
+  justify-content: flex-start;
+  width: 25rem;
+  margin-left: 20px;
+  color: #1F4E8C;
+}
+
+.exp {
+  color: white;
+  font-size: 11px;
+  height: 17px;
+  margin-top: 5px;
+}
+
+.exp2 {
+  color: white;
+  font-size: 14px;
+  height: 17px;
+}
+
+.name {
+  font-size: 14px;
+}
